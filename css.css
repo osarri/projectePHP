@@ -1,0 +1,153 @@
+body{
+
+    margin-left: 2px;
+    background-image: url(./img/fondo.jpg);
+    font-family: 'Arial', cursive;
+    }
+    #logo{
+        width: 800px;
+        height: 200px;
+        border: 8px solid black;
+        border-radius: 28%;
+    }
+    .producto{
+        float: right;
+        border: 1px solid black;
+        display: inline;
+        background-color: white;
+        margin-left: 16px;
+        width: 32%;
+    }
+    .titulo{
+        font-family: 'Arial', cursive;
+    }
+
+
+    /*  Catalogo*/
+    .productosFormulario{
+        border: 1px solid #CED5D7;
+        border-radius: 6px;
+        padding: 45px 45px 20px;
+        margin-bottom: 50px;
+        background-color: rgba(255, 255, 255, 0.658);
+        box-shadow: 0px 5px 10px #B5C1C5, 0 0 0 10px rgb(238, 245, 247) inset;
+        width: 50%;
+        background-color: white;
+        font-family: 'Arial', cursive;
+    }
+    
+    #id2,#id3
+    {
+        padding: 8px 6px;
+        width: 200px;
+        border: 1px solid #CED5D7;
+        resize: none;
+        box-shadow:0 0 0 3px #EEF5F7;
+        margin: 5px 0;
+    
+    }
+    #id2{
+        background-color: rgb(194, 194, 194);
+    }
+    .productosFormulario:hover,
+    #producto1:hover,
+    #producto2:hover,
+    #producto3:hover
+    {
+       background-color: #a0dbe7;
+    }
+    #producto1{
+        width: 400px;   
+    }
+    #producto2{
+        width: 253px;
+    }
+    #producto3{
+        width:359px;
+    }
+    
+    
+    .imagenCarrito:hover{
+        
+        background-color: rgb(42, 165, 69);
+        opacity: 0.6;
+    }
+    #cesta {
+        width: 41px;
+        margin-top: 7px;
+    }
+    
+    .imagenCarrito{
+        float: right;
+        border-radius: 34px;
+        background: #e4f1f6;
+        border: 3px solid black;
+        width: 55px;
+        height: 51px;
+    
+    }
+    .imagenExit{
+        float: right;
+    
+    }
+    
+    /*  Formulario  */
+    .contacto{
+        border: 1px solid #CED5D7;
+        border-radius: 6px;
+        padding: 45px 45px 20px;
+        margin-bottom: 50px;
+        background-color: rgba(255, 255, 255, 0.658);
+        box-shadow: 0px 5px 10px #B5C1C5, 0 0 0 10px rgb(238, 245, 247) inset;
+        width: 50%;
+        font-family: 'Arial', cursive;
+    }
+    .contacto label,
+    .productosFormulario{
+        display: block;
+        font-weight: bold;
+    }
+    .contacto div,
+    .productosFormulario{
+        margin-bottom: 15px;
+    }
+    .contacto input[type='text'], .contacto textarea,
+    .productosFormulario[type='text'], .productosFormulario textarea{
+        padding: 7px 6px;
+        width: 400px;
+        border: 1px solid #CED5D7;
+        resize: none;
+        box-shadow:0 0 0 3px #EEF5F7;
+        margin: 5px 0;
+    }
+    .contacto input[type='text']:focus, .contacto textarea:focus,
+    .productosFormulario input[type='text']:focus, .productosFormulario textarea:focus{
+        outline: none;
+        box-shadow:0 0 0 3px #dde9ec;
+    }
+    .contacto input[type='submit'],
+    .productosFormulario input[type='submit']{
+        border: 1px solid #CED5D7;
+        box-shadow:0 0 0 3px #EEF5F7;
+        padding: 8px 8px;
+        border-radius: 20px;
+        font-weight: bold;
+        text-shadow: 1px 1px 0px white;
+        font-family: 'Arial', cursive;
+        background: #e4f1f6;
+        background: -moz-linear-gradient(top, #e4f1f6 0%, #cfe6ef 100%);
+        background: -webkit-linear-gradient(top, #e4f1f6 0%,#cfe6ef 100%);
+    }
+    .contacto input[type='submit']:hover,
+    .productosFormulario input[type='submit']:hover{
+        background: #edfcff;
+        background: -moz-linear-gradient(top, #edfcff 0%, #cfe6ef 100%);
+        background: -webkit-linear-gradient(top, #edfcff 0%,#cfe6ef 100%);
+    }
+    .contacto input[type='submit']:active,
+    .productosFormulario input[type='submit']:active{
+        background: #cfe6ef;
+        background: -moz-linear-gradient(top, #cfe6ef 0%, #edfcff 100%);
+        background: -webkit-linear-gradient(top, #cfe6ef 0%,#edfcff 100%);
+    }
+    /*  AquÃ­ acaba el formulario  */
